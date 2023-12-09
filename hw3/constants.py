@@ -1,0 +1,11 @@
+NUM_STATES=25
+NUM_ACTIONS=4
+DELTA = 0.0001
+action_str = ['UP', "DOWN", "LEFT", "RIGHT"]
+action_dir = ['↑', '↓', '←', '→']
+OBSTACLE_STATES = [12,17]
+gamma = 0.95
+WATER_STATES = [22]
+REWARD_STATES = [24]
+GOLD_STATES = [2]
+TERMINAL_STATES = REWARD_STATES + GOLD_STATES

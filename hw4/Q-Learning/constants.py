@@ -1,0 +1,10 @@
+NUM_STATES=25
+NUM_ACTIONS=4
+action_str = ['UP', "DOWN", "LEFT", "RIGHT"]
+action_img = ['↑', '↓', '←', '→']
+OBSTACLE_STATES = [12,17]
+GAMMA = 0.9
+WATER_STATES = [22]
+REWARD_STATES = [24]
+TERMINAL_STATES = REWARD_STATES
+STEP_SIZE = 0.1
